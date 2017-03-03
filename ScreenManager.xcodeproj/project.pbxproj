@@ -14,6 +14,14 @@
 		BC6BE2581E69792C00DE2172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6BE2561E69792C00DE2172 /* LaunchScreen.storyboard */; };
 		BC6BE2631E69792C00DE2172 /* ScreenManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BE2621E69792C00DE2172 /* ScreenManagerTests.swift */; };
 		BC6BE26E1E69792C00DE2172 /* ScreenManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BE26D1E69792C00DE2172 /* ScreenManagerUITests.swift */; };
+		BC6BE27D1E697A5500DE2172 /* ScreenVader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BE27C1E697A5500DE2172 /* ScreenVader.swift */; };
+		BC6BE27F1E697B3800DE2172 /* ScreenManager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6BE27E1E697B3800DE2172 /* ScreenManager.storyboard */; };
+		BC6BE2811E697B4E00DE2172 /* ScreenManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BE2801E697B4E00DE2172 /* ScreenManagerViewController.swift */; };
+		BC6BE2831E69855F00DE2172 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BE2821E69855F00DE2172 /* Utility.swift */; };
+		BC6BE2851E6986BD00DE2172 /* CustomNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BE2841E6986BD00DE2172 /* CustomNavigationViewController.swift */; };
+		BC6BE2871E6992FE00DE2172 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC6BE2861E6992FE00DE2172 /* User.storyboard */; };
+		BC6BE2891E6993BB00DE2172 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BE2881E6993BB00DE2172 /* UserViewController.swift */; };
+		BC6BE28B1E6995AD00DE2172 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6BE28A1E6995AD00DE2172 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		BC6BE2691E69792C00DE2172 /* ScreenManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6BE26D1E69792C00DE2172 /* ScreenManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenManagerUITests.swift; sourceTree = "<group>"; };
 		BC6BE26F1E69792C00DE2172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6BE27C1E697A5500DE2172 /* ScreenVader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenVader.swift; sourceTree = "<group>"; };
+		BC6BE27E1E697B3800DE2172 /* ScreenManager.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScreenManager.storyboard; sourceTree = "<group>"; };
+		BC6BE2801E697B4E00DE2172 /* ScreenManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenManagerViewController.swift; sourceTree = "<group>"; };
+		BC6BE2821E69855F00DE2172 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		BC6BE2841E6986BD00DE2172 /* CustomNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationViewController.swift; sourceTree = "<group>"; };
+		BC6BE2861E6992FE00DE2172 /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		BC6BE2881E6993BB00DE2172 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		BC6BE28A1E6995AD00DE2172 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +113,12 @@
 		BC6BE24C1E69792B00DE2172 /* ScreenManager */ = {
 			isa = PBXGroup;
 			children = (
+				BC6BE27B1E697A1900DE2172 /* Managers */,
 				BC6BE24D1E69792C00DE2172 /* AppDelegate.swift */,
 				BC6BE24F1E69792C00DE2172 /* ViewController.swift */,
+				BC6BE2881E6993BB00DE2172 /* UserViewController.swift */,
+				BC6BE28A1E6995AD00DE2172 /* SecondViewController.swift */,
+				BC6BE2861E6992FE00DE2172 /* User.storyboard */,
 				BC6BE2511E69792C00DE2172 /* Main.storyboard */,
 				BC6BE2541E69792C00DE2172 /* Assets.xcassets */,
 				BC6BE2561E69792C00DE2172 /* LaunchScreen.storyboard */,
@@ -123,6 +143,18 @@
 				BC6BE26F1E69792C00DE2172 /* Info.plist */,
 			);
 			path = ScreenManagerUITests;
+			sourceTree = "<group>";
+		};
+		BC6BE27B1E697A1900DE2172 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BC6BE27C1E697A5500DE2172 /* ScreenVader.swift */,
+				BC6BE2841E6986BD00DE2172 /* CustomNavigationViewController.swift */,
+				BC6BE2801E697B4E00DE2172 /* ScreenManagerViewController.swift */,
+				BC6BE27E1E697B3800DE2172 /* ScreenManager.storyboard */,
+				BC6BE2821E69855F00DE2172 /* Utility.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +225,7 @@
 				TargetAttributes = {
 					BC6BE2491E69792B00DE2172 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E87TYV2U4N;
 						ProvisioningStyle = Automatic;
 					};
 					BC6BE25D1E69792C00DE2172 = {
@@ -233,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC6BE2581E69792C00DE2172 /* LaunchScreen.storyboard in Resources */,
+				BC6BE2871E6992FE00DE2172 /* User.storyboard in Resources */,
 				BC6BE2551E69792C00DE2172 /* Assets.xcassets in Resources */,
+				BC6BE27F1E697B3800DE2172 /* ScreenManager.storyboard in Resources */,
 				BC6BE2531E69792C00DE2172 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6BE28B1E6995AD00DE2172 /* SecondViewController.swift in Sources */,
+				BC6BE2891E6993BB00DE2172 /* UserViewController.swift in Sources */,
+				BC6BE2831E69855F00DE2172 /* Utility.swift in Sources */,
+				BC6BE2851E6986BD00DE2172 /* CustomNavigationViewController.swift in Sources */,
 				BC6BE2501E69792C00DE2172 /* ViewController.swift in Sources */,
 				BC6BE24E1E69792C00DE2172 /* AppDelegate.swift in Sources */,
+				BC6BE2811E697B4E00DE2172 /* ScreenManagerViewController.swift in Sources */,
+				BC6BE27D1E697A5500DE2172 /* ScreenVader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E87TYV2U4N;
 				INFOPLIST_FILE = ScreenManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ankit.ScreenManager;
@@ -424,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E87TYV2U4N;
 				INFOPLIST_FILE = ScreenManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ankit.ScreenManager;
